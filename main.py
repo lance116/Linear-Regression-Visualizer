@@ -37,7 +37,7 @@ y = df['Price']   # Output: prices we want to predict
 model = LinearRegression()
 model.fit(X, y)  # This is where the AI learns!
 
-print("AI training complete.")
+print("AI training is complete.")
 print(f"The AI learned: For every extra sq ft, price goes up by ${model.coef_[0]:.0f}")
 
 # Make predictions for new house sizes
